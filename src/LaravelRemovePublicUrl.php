@@ -1,6 +1,6 @@
 <?php
 
-namespace Dipeshsukhia\LaravelRemovePublicUrl;
+namespace Limewell\LaravelRemovePublicUrl;
 
 class LaravelRemovePublicUrl
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dipeshsukhia\LaravelRemovePublicUrl;
+namespace Limewell\LaravelRemovePublicUrl;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,8 +11,8 @@ class LaravelRemovePublicUrlServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([            
-            __DIR__ . '/base' => base_path(),
+        $this->publishes([
+            __DIR__ . '../base' => base_path(),
         ], 'LaravelRemovePublicUrl');
     }
 

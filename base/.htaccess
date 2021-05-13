@@ -33,3 +33,7 @@
     Order allow,deny
     Deny from all
 </FilesMatch>
+
+<IfModule mod_deflate.c>
+    SetOutputFilter deflate
+</IfModule>

@@ -1,12 +1,12 @@
 {
-    "name": "dipeshsukhia/laravel-remove-public-url",
+    "name": "limewell/laravel-remove-public-url",
     "description": "remove public from laravel project and run project in root directory",
     "keywords": [
         "laravel",
         "remove public from url",
         "run laravel in root directory"
     ],
-    "homepage": "https://github.com/dipeshsukhia/laravel-remove-public-url",
+    "homepage": "https://github.com/limewell/laravel-remove-public-url",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dipeshsukhia\\LaravelRemovePublicUrl\\": "src"
+            "Limewell\\LaravelRemovePublicUrl\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dipeshsukhia\\LaravelRemovePublicUrl\\Tests\\": "tests"
+            "Limewell\\LaravelRemovePublicUrl\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dipeshsukhia\\LaravelRemovePublicUrl\\LaravelRemovePublicUrlServiceProvider"
+                "Limewell\\LaravelRemovePublicUrl\\LaravelRemovePublicUrlServiceProvider"
             ],
             "aliases": {
-                "LaravelRemovePublicUrl": "Dipeshsukhia\\LaravelRemovePublicUrl\\LaravelRemovePublicUrlFacade"
+                "LaravelRemovePublicUrl": "Limewell\\LaravelRemovePublicUrl\\LaravelRemovePublicUrlFacade"
             }
         }
     }

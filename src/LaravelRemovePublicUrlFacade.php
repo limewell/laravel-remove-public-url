@@ -1,12 +1,9 @@
 <?php
 
-namespace Dipeshsukhia\LaravelRemovePublicUrl;
+namespace Limewell\LaravelRemovePublicUrl;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Dipeshsukhia\LaravelRemovePublicUrl\Skeleton\SkeletonClass
- */
 class LaravelRemovePublicUrlFacade extends Facade
 {
     /**
@@ -14,7 +11,7 @@ class LaravelRemovePublicUrlFacade extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor()
+    protected static function getFacadeAccessor(): string
     {
         return 'laravel-remove-public-url';
     }
